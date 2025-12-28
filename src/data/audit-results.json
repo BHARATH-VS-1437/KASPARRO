@@ -1,0 +1,929 @@
+[
+    {
+        "brandId": "brand-1",
+        "timestamp": "2025-12-27T10:30:00Z",
+        "modules": [
+            {
+                "id": "entity-recognition",
+                "name": "Entity Recognition",
+                "description": "Analyzes how AI systems identify and understand your brand as a distinct entity",
+                "score": 82,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "er-i1",
+                        "title": "Strong brand entity signals detected",
+                        "description": "Your brand is consistently recognized across 87% of AI training data sources",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "er-i2",
+                        "title": "Industry association is clear",
+                        "description": "AI models correctly categorize TechFlow as a B2B SaaS provider in 94% of contexts",
+                        "impact": "medium"
+                    },
+                    {
+                        "id": "er-i3",
+                        "title": "Product-brand linkage established",
+                        "description": "Core products are successfully linked to brand entity in knowledge graphs",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "er-is1",
+                        "title": "Inconsistent brand name variations",
+                        "severity": "warning",
+                        "description": "AI systems sometimes confuse 'TechFlow' with 'Tech Flow' (separated)",
+                        "affectedUrls": [
+                            "techflow.com/about",
+                            "techflow.com/products"
+                        ]
+                    },
+                    {
+                        "id": "er-is2",
+                        "title": "Missing structured data on key pages",
+                        "severity": "warning",
+                        "description": "Organization schema markup absent on 3 important landing pages"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "er-r1",
+                        "title": "Standardize brand name usage",
+                        "description": "Ensure consistent 'TechFlow' (one word) usage across all digital properties and content",
+                        "priority": "high",
+                        "estimatedImpact": "+8% entity recognition accuracy"
+                    },
+                    {
+                        "id": "er-r2",
+                        "title": "Implement comprehensive schema markup",
+                        "description": "Add Organization and Product schema to all key pages for better entity understanding",
+                        "priority": "high",
+                        "estimatedImpact": "+12% knowledge graph inclusion"
+                    },
+                    {
+                        "id": "er-r3",
+                        "title": "Build authoritative brand mentions",
+                        "description": "Secure mentions in industry publications and directories to strengthen entity signals",
+                        "priority": "medium",
+                        "estimatedImpact": "+5% brand authority"
+                    }
+                ]
+            },
+            {
+                "id": "sentiment-analysis",
+                "name": "Sentiment Analysis",
+                "description": "Evaluates the sentiment and tone of content associated with your brand",
+                "score": 76,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "sa-i1",
+                        "title": "Overall positive sentiment detected",
+                        "description": "78% of brand mentions carry positive or neutral sentiment in AI training data",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "sa-i2",
+                        "title": "Customer testimonials highly valued",
+                        "description": "User reviews and case studies contribute significantly to positive sentiment",
+                        "impact": "medium"
+                    },
+                    {
+                        "id": "sa-i3",
+                        "title": "Product quality consistently praised",
+                        "description": "Feature discussions maintain 85% positive sentiment across sources",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "sa-is1",
+                        "title": "Pricing concerns in community discussions",
+                        "severity": "info",
+                        "description": "Some negative sentiment around pricing model in Reddit and forum discussions"
+                    },
+                    {
+                        "id": "sa-is2",
+                        "title": "Support response time mentioned negatively",
+                        "severity": "warning",
+                        "description": "Customer support speed occasionally cited as a pain point"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "sa-r1",
+                        "title": "Address pricing transparency",
+                        "description": "Create detailed pricing guides and ROI calculators to address cost concerns proactively",
+                        "priority": "medium",
+                        "estimatedImpact": "+6% sentiment improvement"
+                    },
+                    {
+                        "id": "sa-r2",
+                        "title": "Highlight support improvements",
+                        "description": "Publish content about support team expansion and response time improvements",
+                        "priority": "medium",
+                        "estimatedImpact": "+4% positive mentions"
+                    },
+                    {
+                        "id": "sa-r3",
+                        "title": "Amplify positive customer stories",
+                        "description": "Increase visibility of success stories and positive case studies",
+                        "priority": "high",
+                        "estimatedImpact": "+10% positive sentiment"
+                    }
+                ]
+            },
+            {
+                "id": "citation-quality",
+                "name": "Citation Quality",
+                "description": "Assesses the quality and authority of sources that cite your brand",
+                "score": 68,
+                "status": "needs-improvement",
+                "insights": [
+                    {
+                        "id": "cq-i1",
+                        "title": "Moderate citation diversity",
+                        "description": "Citations come from 45 unique domains, but concentration is high in top 10",
+                        "impact": "medium"
+                    },
+                    {
+                        "id": "cq-i2",
+                        "title": "Industry publications provide strong signals",
+                        "description": "TechCrunch, VentureBeat citations carry high authority weight",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "cq-i3",
+                        "title": "Academic citations limited",
+                        "description": "Only 3 academic papers reference your technology",
+                        "impact": "medium"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "cq-is1",
+                        "title": "Low-quality directory citations",
+                        "severity": "warning",
+                        "description": "Many citations from low-authority business directories dilute overall quality"
+                    },
+                    {
+                        "id": "cq-is2",
+                        "title": "Missing citations from key industry sites",
+                        "severity": "critical",
+                        "description": "Not cited by Gartner, Forrester, or G2 research content"
+                    },
+                    {
+                        "id": "cq-is3",
+                        "title": "Outdated citation content",
+                        "severity": "info",
+                        "description": "Some high-authority citations reference old product versions"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "cq-r1",
+                        "title": "Pursue analyst relations program",
+                        "description": "Engage with Gartner, Forrester, and IDC for research inclusion and citations",
+                        "priority": "high",
+                        "estimatedImpact": "+15% citation authority"
+                    },
+                    {
+                        "id": "cq-r2",
+                        "title": "Develop thought leadership content",
+                        "description": "Publish research papers and whitepapers to earn academic and industry citations",
+                        "priority": "high",
+                        "estimatedImpact": "+12% citation diversity"
+                    },
+                    {
+                        "id": "cq-r3",
+                        "title": "Update existing citations",
+                        "description": "Reach out to sites with outdated citations to provide current information",
+                        "priority": "medium",
+                        "estimatedImpact": "+5% citation relevance"
+                    },
+                    {
+                        "id": "cq-r4",
+                        "title": "Disavow low-quality citations",
+                        "description": "Request removal from spammy directories that harm citation quality",
+                        "priority": "low",
+                        "estimatedImpact": "+3% overall quality"
+                    }
+                ]
+            },
+            {
+                "id": "eeat-signals",
+                "name": "E-E-A-T Signals",
+                "description": "Measures Experience, Expertise, Authoritativeness, and Trustworthiness signals",
+                "score": 85,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "eeat-i1",
+                        "title": "Strong expertise signals from team",
+                        "description": "Founder and team credentials are well-documented and authoritative",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "eeat-i2",
+                        "title": "Consistent content authorship",
+                        "description": "Blog posts and resources have clear author attribution with bios",
+                        "impact": "medium"
+                    },
+                    {
+                        "id": "eeat-i3",
+                        "title": "Industry certifications present",
+                        "description": "SOC 2, ISO 27001 certifications strengthen trust signals",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "eeat-i4",
+                        "title": "Customer proof points abundant",
+                        "description": "Case studies and testimonials from recognizable brands boost authority",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "eeat-is1",
+                        "title": "Limited executive thought leadership",
+                        "severity": "info",
+                        "description": "CEO and leadership team have minimal public speaking or publication presence"
+                    },
+                    {
+                        "id": "eeat-is2",
+                        "title": "Transparency gaps in company information",
+                        "severity": "warning",
+                        "description": "Team page lacks detailed backgrounds for some key personnel"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "eeat-r1",
+                        "title": "Expand executive visibility",
+                        "description": "Secure speaking engagements and guest posts for CEO and CTO at major industry events",
+                        "priority": "high",
+                        "estimatedImpact": "+8% authority signals"
+                    },
+                    {
+                        "id": "eeat-r2",
+                        "title": "Enhance team transparency",
+                        "description": "Add comprehensive bios, LinkedIn links, and credentials for all team members",
+                        "priority": "medium",
+                        "estimatedImpact": "+4% trust signals"
+                    },
+                    {
+                        "id": "eeat-r3",
+                        "title": "Publish original research",
+                        "description": "Create annual industry reports to establish thought leadership",
+                        "priority": "high",
+                        "estimatedImpact": "+10% expertise signals"
+                    }
+                ]
+            },
+            {
+                "id": "content-relevance",
+                "name": "Content Relevance",
+                "description": "Evaluates how well your content matches user intent and AI query patterns",
+                "score": 72,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "cr-i1",
+                        "title": "Strong product documentation coverage",
+                        "description": "Technical docs comprehensively cover user questions and use cases",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "cr-i2",
+                        "title": "Blog content aligns with search intent",
+                        "description": "75% of blog posts match common user queries in your domain",
+                        "impact": "medium"
+                    },
+                    {
+                        "id": "cr-i3",
+                        "title": "FAQ content well-structured",
+                        "description": "FAQ sections directly address common AI-generated questions",
+                        "impact": "medium"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "cr-is1",
+                        "title": "Content gaps in emerging topics",
+                        "severity": "warning",
+                        "description": "Missing content for 15 high-volume query patterns related to AI integration"
+                    },
+                    {
+                        "id": "cr-is2",
+                        "title": "Outdated content not refreshed",
+                        "severity": "warning",
+                        "description": "23% of content is over 18 months old and may not reflect current best practices"
+                    },
+                    {
+                        "id": "cr-is3",
+                        "title": "Comparison content insufficient",
+                        "severity": "info",
+                        "description": "Lack of detailed competitor comparison content for informed decision-making"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "cr-r1",
+                        "title": "Create AI integration content series",
+                        "description": "Develop comprehensive guides on AI-powered workflows and integrations",
+                        "priority": "high",
+                        "estimatedImpact": "+12% query coverage"
+                    },
+                    {
+                        "id": "cr-r2",
+                        "title": "Implement content refresh program",
+                        "description": "Update all content older than 12 months with current information and examples",
+                        "priority": "high",
+                        "estimatedImpact": "+8% relevance score"
+                    },
+                    {
+                        "id": "cr-r3",
+                        "title": "Build comparison framework",
+                        "description": "Create detailed, honest comparisons with top 5 competitors",
+                        "priority": "medium",
+                        "estimatedImpact": "+6% decision-stage visibility"
+                    },
+                    {
+                        "id": "cr-r4",
+                        "title": "Optimize for conversational queries",
+                        "description": "Restructure content to answer natural language questions AI systems generate",
+                        "priority": "high",
+                        "estimatedImpact": "+10% AI query matching"
+                    }
+                ]
+            },
+            {
+                "id": "brand-mention-context",
+                "name": "Brand Mention Context",
+                "description": "Analyzes the context and quality of how your brand is mentioned across the web",
+                "score": 79,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "bmc-i1",
+                        "title": "Positive context in most mentions",
+                        "description": "82% of brand mentions appear in favorable or neutral contexts",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "bmc-i2",
+                        "title": "Strong association with key features",
+                        "description": "Brand consistently mentioned alongside core value propositions",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "bmc-i3",
+                        "title": "Co-mentions with industry leaders",
+                        "description": "Frequently mentioned alongside established competitors, indicating market presence",
+                        "impact": "medium"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "bmc-is1",
+                        "title": "Limited mention diversity",
+                        "severity": "info",
+                        "description": "Mentions concentrated in tech/SaaS circles, limited crossover to adjacent industries"
+                    },
+                    {
+                        "id": "bmc-is2",
+                        "title": "Negative context in support forums",
+                        "severity": "warning",
+                        "description": "Some mentions in support contexts relate to unresolved issues"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "bmc-r1",
+                        "title": "Expand mention contexts",
+                        "description": "Pursue partnerships and integrations to get mentioned in adjacent industry content",
+                        "priority": "medium",
+                        "estimatedImpact": "+7% context diversity"
+                    },
+                    {
+                        "id": "bmc-r2",
+                        "title": "Address support forum mentions",
+                        "description": "Actively resolve and follow up on issues discussed in public forums",
+                        "priority": "high",
+                        "estimatedImpact": "+5% positive context ratio"
+                    },
+                    {
+                        "id": "bmc-r3",
+                        "title": "Encourage user-generated content",
+                        "description": "Create programs to incentivize customers to share success stories and use cases",
+                        "priority": "medium",
+                        "estimatedImpact": "+8% mention volume"
+                    }
+                ]
+            },
+            {
+                "id": "keyword-coverage",
+                "name": "Keyword Coverage",
+                "description": "Measures coverage of non-branded keywords relevant to your industry and offerings",
+                "score": 62,
+                "status": "needs-improvement",
+                "insights": [
+                    {
+                        "id": "kc-i1",
+                        "title": "Strong branded keyword presence",
+                        "description": "Excellent visibility for branded terms and variations",
+                        "impact": "medium"
+                    },
+                    {
+                        "id": "kc-i2",
+                        "title": "Moderate category keyword coverage",
+                        "description": "Present in 58% of relevant category-level keyword contexts",
+                        "impact": "medium"
+                    },
+                    {
+                        "id": "kc-i3",
+                        "title": "Long-tail keyword opportunities",
+                        "description": "Strong performance on specific use-case keywords",
+                        "impact": "low"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "kc-is1",
+                        "title": "Missing from top-funnel keywords",
+                        "severity": "critical",
+                        "description": "Absent from 45% of high-volume awareness-stage keywords in your category"
+                    },
+                    {
+                        "id": "kc-is2",
+                        "title": "Competitor dominance in key terms",
+                        "severity": "warning",
+                        "description": "Top 3 competitors have 3x more coverage on critical non-branded keywords"
+                    },
+                    {
+                        "id": "kc-is3",
+                        "title": "Emerging keyword gaps",
+                        "severity": "warning",
+                        "description": "Not ranking for 28 trending keywords related to AI and automation"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "kc-r1",
+                        "title": "Develop top-funnel content strategy",
+                        "description": "Create comprehensive guides and resources targeting awareness-stage keywords",
+                        "priority": "high",
+                        "estimatedImpact": "+18% keyword coverage"
+                    },
+                    {
+                        "id": "kc-r2",
+                        "title": "Build keyword-specific landing pages",
+                        "description": "Create dedicated pages for top 20 non-branded keywords with high search volume",
+                        "priority": "high",
+                        "estimatedImpact": "+15% category visibility"
+                    },
+                    {
+                        "id": "kc-r3",
+                        "title": "Target emerging AI keywords",
+                        "description": "Publish thought leadership content on AI trends and automation topics",
+                        "priority": "high",
+                        "estimatedImpact": "+12% future-proof coverage"
+                    },
+                    {
+                        "id": "kc-r4",
+                        "title": "Optimize existing content for keywords",
+                        "description": "Enhance current pages to better target secondary and related keywords",
+                        "priority": "medium",
+                        "estimatedImpact": "+8% overall coverage"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "brandId": "brand-2",
+        "timestamp": "2025-12-26T14:15:00Z",
+        "modules": [
+            {
+                "id": "entity-recognition",
+                "name": "Entity Recognition",
+                "description": "Analyzes how AI systems identify and understand your brand as a distinct entity",
+                "score": 91,
+                "status": "excellent",
+                "insights": [
+                    {
+                        "id": "er2-i1",
+                        "title": "Exceptional entity clarity",
+                        "description": "Brand entity recognized with 96% accuracy across AI training sources",
+                        "impact": "high"
+                    },
+                    {
+                        "id": "er2-i2",
+                        "title": "Strong health & wellness categorization",
+                        "description": "Correctly categorized in health niche with high confidence",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [],
+                "recommendations": [
+                    {
+                        "id": "er2-r1",
+                        "title": "Maintain entity consistency",
+                        "description": "Continue current brand consistency practices across all channels",
+                        "priority": "low",
+                        "estimatedImpact": "+2% maintenance"
+                    }
+                ]
+            },
+            {
+                "id": "sentiment-analysis",
+                "name": "Sentiment Analysis",
+                "description": "Evaluates the sentiment and tone of content associated with your brand",
+                "score": 88,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "sa2-i1",
+                        "title": "Overwhelmingly positive sentiment",
+                        "description": "92% positive sentiment across all brand mentions",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [],
+                "recommendations": [
+                    {
+                        "id": "sa2-r1",
+                        "title": "Amplify customer testimonials",
+                        "description": "Increase visibility of positive customer experiences",
+                        "priority": "medium",
+                        "estimatedImpact": "+3% sentiment boost"
+                    }
+                ]
+            },
+            {
+                "id": "citation-quality",
+                "name": "Citation Quality",
+                "description": "Assesses the quality and authority of sources that cite your brand",
+                "score": 84,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "cq2-i1",
+                        "title": "High-authority health citations",
+                        "description": "Featured in Healthline, WebMD, and Mayo Clinic content",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [],
+                "recommendations": [
+                    {
+                        "id": "cq2-r1",
+                        "title": "Pursue medical journal citations",
+                        "description": "Engage with research community for peer-reviewed citations",
+                        "priority": "high",
+                        "estimatedImpact": "+8% authority"
+                    }
+                ]
+            },
+            {
+                "id": "eeat-signals",
+                "name": "E-E-A-T Signals",
+                "description": "Measures Experience, Expertise, Authoritativeness, and Trustworthiness signals",
+                "score": 90,
+                "status": "excellent",
+                "insights": [
+                    {
+                        "id": "eeat2-i1",
+                        "title": "Medical expert team",
+                        "description": "Board-certified professionals provide strong expertise signals",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [],
+                "recommendations": [
+                    {
+                        "id": "eeat2-r1",
+                        "title": "Expand expert content",
+                        "description": "Increase medically-reviewed content volume",
+                        "priority": "medium",
+                        "estimatedImpact": "+5% trust"
+                    }
+                ]
+            },
+            {
+                "id": "content-relevance",
+                "name": "Content Relevance",
+                "description": "Evaluates how well your content matches user intent and AI query patterns",
+                "score": 86,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "cr2-i1",
+                        "title": "Excellent health query matching",
+                        "description": "Content aligns with 88% of health-related user queries",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [],
+                "recommendations": [
+                    {
+                        "id": "cr2-r1",
+                        "title": "Expand symptom-based content",
+                        "description": "Create more content addressing specific health symptoms",
+                        "priority": "medium",
+                        "estimatedImpact": "+6% coverage"
+                    }
+                ]
+            },
+            {
+                "id": "brand-mention-context",
+                "name": "Brand Mention Context",
+                "description": "Analyzes the context and quality of how your brand is mentioned across the web",
+                "score": 87,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "bmc2-i1",
+                        "title": "Positive health community mentions",
+                        "description": "Strong positive mentions in wellness forums and communities",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [],
+                "recommendations": [
+                    {
+                        "id": "bmc2-r1",
+                        "title": "Engage health influencers",
+                        "description": "Partner with wellness influencers for broader mention diversity",
+                        "priority": "medium",
+                        "estimatedImpact": "+5% reach"
+                    }
+                ]
+            },
+            {
+                "id": "keyword-coverage",
+                "name": "Keyword Coverage",
+                "description": "Measures coverage of non-branded keywords relevant to your industry and offerings",
+                "score": 75,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "kc2-i1",
+                        "title": "Strong wellness keyword presence",
+                        "description": "Good coverage of primary wellness and health keywords",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "kc2-is1",
+                        "title": "Gaps in alternative medicine keywords",
+                        "severity": "info",
+                        "description": "Limited coverage of holistic and alternative health terms"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "kc2-r1",
+                        "title": "Expand alternative health content",
+                        "description": "Create content targeting holistic and integrative medicine keywords",
+                        "priority": "medium",
+                        "estimatedImpact": "+10% keyword expansion"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "brandId": "brand-3",
+        "timestamp": "2025-12-25T09:00:00Z",
+        "modules": [
+            {
+                "id": "entity-recognition",
+                "name": "Entity Recognition",
+                "description": "Analyzes how AI systems identify and understand your brand as a distinct entity",
+                "score": 70,
+                "status": "needs-improvement",
+                "insights": [
+                    {
+                        "id": "er3-i1",
+                        "title": "Moderate entity recognition",
+                        "description": "Brand recognized in 72% of financial technology contexts",
+                        "impact": "medium"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "er3-is1",
+                        "title": "Generic name confusion",
+                        "severity": "warning",
+                        "description": "'FinanceHub' sometimes confused with generic financial hub concepts"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "er3-r1",
+                        "title": "Strengthen brand differentiation",
+                        "description": "Add distinctive brand elements and consistent positioning",
+                        "priority": "high",
+                        "estimatedImpact": "+12% entity clarity"
+                    }
+                ]
+            },
+            {
+                "id": "sentiment-analysis",
+                "name": "Sentiment Analysis",
+                "description": "Evaluates the sentiment and tone of content associated with your brand",
+                "score": 74,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "sa3-i1",
+                        "title": "Generally positive sentiment",
+                        "description": "68% positive sentiment in fintech discussions",
+                        "impact": "medium"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "sa3-is1",
+                        "title": "Security concerns mentioned",
+                        "severity": "warning",
+                        "description": "Some discussions raise questions about security features"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "sa3-r1",
+                        "title": "Highlight security credentials",
+                        "description": "Prominently feature security certifications and practices",
+                        "priority": "high",
+                        "estimatedImpact": "+8% trust sentiment"
+                    }
+                ]
+            },
+            {
+                "id": "citation-quality",
+                "name": "Citation Quality",
+                "description": "Assesses the quality and authority of sources that cite your brand",
+                "score": 58,
+                "status": "needs-improvement",
+                "insights": [
+                    {
+                        "id": "cq3-i1",
+                        "title": "Limited high-authority citations",
+                        "description": "Few citations from major financial publications",
+                        "impact": "high"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "cq3-is1",
+                        "title": "Missing from key fintech resources",
+                        "severity": "critical",
+                        "description": "Not cited in major fintech comparison sites and reviews"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "cq3-r1",
+                        "title": "PR campaign for financial media",
+                        "description": "Engage Bloomberg, Reuters, Financial Times for coverage",
+                        "priority": "high",
+                        "estimatedImpact": "+20% citation quality"
+                    }
+                ]
+            },
+            {
+                "id": "eeat-signals",
+                "name": "E-E-A-T Signals",
+                "description": "Measures Experience, Expertise, Authoritativeness, and Trustworthiness signals",
+                "score": 72,
+                "status": "good",
+                "insights": [
+                    {
+                        "id": "eeat3-i1",
+                        "title": "Financial expertise demonstrated",
+                        "description": "Team credentials show relevant financial industry experience",
+                        "impact": "medium"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "eeat3-is1",
+                        "title": "Limited regulatory transparency",
+                        "severity": "warning",
+                        "description": "Compliance and regulatory information not prominently displayed"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "eeat3-r1",
+                        "title": "Enhance regulatory transparency",
+                        "description": "Create dedicated compliance and regulatory information pages",
+                        "priority": "high",
+                        "estimatedImpact": "+10% trust signals"
+                    }
+                ]
+            },
+            {
+                "id": "content-relevance",
+                "name": "Content Relevance",
+                "description": "Evaluates how well your content matches user intent and AI query patterns",
+                "score": 66,
+                "status": "needs-improvement",
+                "insights": [
+                    {
+                        "id": "cr3-i1",
+                        "title": "Basic financial content present",
+                        "description": "Core financial topics covered but lacking depth",
+                        "impact": "medium"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "cr3-is1",
+                        "title": "Educational content gaps",
+                        "severity": "warning",
+                        "description": "Missing comprehensive financial education resources"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "cr3-r1",
+                        "title": "Build financial education hub",
+                        "description": "Create extensive guides on personal finance and investment topics",
+                        "priority": "high",
+                        "estimatedImpact": "+15% relevance score"
+                    }
+                ]
+            },
+            {
+                "id": "brand-mention-context",
+                "name": "Brand Mention Context",
+                "description": "Analyzes the context and quality of how your brand is mentioned across the web",
+                "score": 68,
+                "status": "needs-improvement",
+                "insights": [
+                    {
+                        "id": "bmc3-i1",
+                        "title": "Emerging fintech presence",
+                        "description": "Growing mentions in fintech startup discussions",
+                        "impact": "medium"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "bmc3-is1",
+                        "title": "Limited mainstream visibility",
+                        "severity": "info",
+                        "description": "Mentions concentrated in niche fintech communities"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "bmc3-r1",
+                        "title": "Expand to mainstream finance",
+                        "description": "Target broader personal finance and business finance audiences",
+                        "priority": "medium",
+                        "estimatedImpact": "+12% mention diversity"
+                    }
+                ]
+            },
+            {
+                "id": "keyword-coverage",
+                "name": "Keyword Coverage",
+                "description": "Measures coverage of non-branded keywords relevant to your industry and offerings",
+                "score": 58,
+                "status": "needs-improvement",
+                "insights": [
+                    {
+                        "id": "kc3-i1",
+                        "title": "Niche keyword strength",
+                        "description": "Strong performance on specific fintech product keywords",
+                        "impact": "low"
+                    }
+                ],
+                "issues": [
+                    {
+                        "id": "kc3-is1",
+                        "title": "Major keyword gaps",
+                        "severity": "critical",
+                        "description": "Missing from 60% of high-volume financial services keywords"
+                    }
+                ],
+                "recommendations": [
+                    {
+                        "id": "kc3-r1",
+                        "title": "Comprehensive keyword strategy",
+                        "description": "Develop content targeting top 50 financial services keywords",
+                        "priority": "high",
+                        "estimatedImpact": "+25% keyword coverage"
+                    }
+                ]
+            }
+        ]
+    }
+]

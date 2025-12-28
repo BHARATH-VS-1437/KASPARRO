@@ -1,0 +1,23 @@
+[
+    {
+        "id": "brand-1",
+        "name": "TechFlow Solutions",
+        "domain": "techflow.com",
+        "industry": "B2B SaaS",
+        "lastAuditDate": "2025-12-27T10:30:00Z"
+    },
+    {
+        "id": "brand-2",
+        "name": "EcoVital Wellness",
+        "domain": "ecovital.health",
+        "industry": "Health & Wellness",
+        "lastAuditDate": "2025-12-26T14:15:00Z"
+    },
+    {
+        "id": "brand-3",
+        "name": "FinanceHub Pro",
+        "domain": "financehub.io",
+        "industry": "FinTech",
+        "lastAuditDate": "2025-12-25T09:00:00Z"
+    }
+]

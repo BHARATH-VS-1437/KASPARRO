@@ -1,0 +1,38 @@
+[
+    {
+        "brandId": "brand-1",
+        "aiVisibilityScore": 78,
+        "trustScore": 85,
+        "keywordCoverage": 62,
+        "lastAuditTimestamp": "2025-12-27T10:30:00Z",
+        "trends": {
+            "aiVisibility": 12,
+            "trust": 5,
+            "keywords": -3
+        }
+    },
+    {
+        "brandId": "brand-2",
+        "aiVisibilityScore": 92,
+        "trustScore": 88,
+        "keywordCoverage": 75,
+        "lastAuditTimestamp": "2025-12-26T14:15:00Z",
+        "trends": {
+            "aiVisibility": 8,
+            "trust": 3,
+            "keywords": 15
+        }
+    },
+    {
+        "brandId": "brand-3",
+        "aiVisibilityScore": 65,
+        "trustScore": 72,
+        "keywordCoverage": 58,
+        "lastAuditTimestamp": "2025-12-25T09:00:00Z",
+        "trends": {
+            "aiVisibility": -5,
+            "trust": 2,
+            "keywords": 7
+        }
+    }
+]
